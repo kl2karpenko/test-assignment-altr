@@ -37,7 +37,7 @@
 
 Application repo should have next scripts, in order to check how it works:
 
-- lint (using eslint)
-- build (a build version)
-- start (to run application locally) - this should start the FE webpack to rebuild app on changes + this should start a backend NODEJS server
+`lint` (using eslint) <br />
+`build` (a build version) <br />
+`start` (to run application locally) - this should start the FE webpack to rebuild app on changes + this should start a backend NODEJS server <br />
 
