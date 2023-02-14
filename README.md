@@ -22,7 +22,7 @@
 - Settings page
   - Header title: Settings Page
   - User info:
-    - readonly input with his username/email
+    - readonly input with their username/email
     - button LOGOUT
 
 **Use cases, that should be covered:**
