@@ -20,7 +20,7 @@
   - on click on settings we shoudl redirect user to the settings page
   - on click on logout we should logout user and redirect him to login page
 - Settings page
-  - Header: Settings Page
+  - Header title: Settings Page
   - User info:
     - readonly input with his username/email
     - button LOGOUT
@@ -30,4 +30,14 @@
 - When user is not logged in, when he enters a route he cannot enter, he will be redirected to /login page
 - When user logged in, he will be redirected to HOME page
 
-Create this small application using **TS/React/MaterialUI/NodeJS** and the DB you prefer.
+**Requirements**
+
+- Create this small application using **TypeScript/React/MaterialUI/NodeJS** and the DB you prefer.
+- Add at lest some unit test for BE part and for frontend as well, add please at least some unit tests using Jest and RTL
+
+Application repo should have next scripts, in order to check how it works:
+
+- lint (using eslint)
+- build (a build version)
+- start (to run application locally) - this should start the FE webpack to rebuild app on changes + this should start a backend NODEJS server
+
